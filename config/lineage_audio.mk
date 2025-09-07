@@ -8,26 +8,36 @@ RINGTONE_PATH := vendor/lineage/prebuilt/common/media/audio/ringtones
 
 # Alarms
 PRODUCT_COPY_FILES += \
-    $(ALARM_PATH)/CyanAlarm.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/CyanAlarm.ogg \
-    $(ALARM_PATH)/NuclearLaunch.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/NuclearLaunch.ogg
+    $(ALARM_PATH)/Aurora.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Aurora.ogg \
+    $(ALARM_PATH)/Guitar.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Guitar.ogg \
+    $(ALARM_PATH)/Nature.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Nature.ogg \
+    $(ALARM_PATH)/NiceMorning.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/NiceMorning.ogg \
+    $(ALARM_PATH)/Ocean.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Ocean.ogg \
+    $(ALARM_PATH)/Rise.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Rise.ogg \
+    $(ALARM_PATH)/Sight.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Sight.ogg \
+    $(ALARM_PATH)/WUTTL.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/WUTTL.ogg
 
 # Notifications
 PRODUCT_COPY_FILES += \
-    $(NOTIFICATION_PATH)/CyanDoink.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/CyanDoink.ogg \
-    $(NOTIFICATION_PATH)/CyanMail.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/CyanMail.ogg \
-    $(NOTIFICATION_PATH)/CyanMessage.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/CyanMessage.ogg \
-    $(NOTIFICATION_PATH)/Laser.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Laser.ogg \
-    $(NOTIFICATION_PATH)/Naughty.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Naughty.ogg \
-    $(NOTIFICATION_PATH)/Pong.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Pong.ogg \
-    $(NOTIFICATION_PATH)/Rang.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Rang.ogg \
-    $(NOTIFICATION_PATH)/Stone.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Stone.ogg
+    $(NOTIFICATION_PATH)/Beyond.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Beyond.ogg \
+    $(NOTIFICATION_PATH)/Cue.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Cue.ogg \
+    $(NOTIFICATION_PATH)/Doorbell.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Doorbell.ogg \
+    $(NOTIFICATION_PATH)/Drop.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Drop.ogg \
+    $(NOTIFICATION_PATH)/Grotto.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Grotto.ogg \
+    $(NOTIFICATION_PATH)/Hello.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Hello.ogg \
+    $(NOTIFICATION_PATH)/Interrogation.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Interrogation.ogg \
+    $(NOTIFICATION_PATH)/Missed.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Missed.ogg \
+    $(NOTIFICATION_PATH)/PassBy.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/PassBy.ogg \
+    $(NOTIFICATION_PATH)/Sign.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Sign.ogg \
+    $(NOTIFICATION_PATH)/Somewhere.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Somewhere.ogg
 
 # Ringtones
 PRODUCT_COPY_FILES += \
-    $(RINGTONE_PATH)/Boxbeat.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Boxbeat.ogg \
-    $(RINGTONE_PATH)/CyanTone.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/CyanTone.ogg \
-    $(RINGTONE_PATH)/Highscore.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Highscore.ogg \
-    $(RINGTONE_PATH)/Lyon.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Lyon.ogg \
-    $(RINGTONE_PATH)/Rockin.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Rockin.ogg \
-    $(RINGTONE_PATH)/Sheep.mp3:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Sheep.mp3 \
-    $(RINGTONE_PATH)/Yukaay.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Yukaay.ogg
+    $(RINGTONE_PATH)/BlackWatch.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/BlackWatch.ogg \
+    $(RINGTONE_PATH)/Brick.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Brick.ogg \
+    $(RINGTONE_PATH)/Fall.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Fall.ogg \
+    $(RINGTONE_PATH)/InACircle.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/InACircle.ogg \
+    $(RINGTONE_PATH)/InACircleV2.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/InACircleV2.ogg \
+    $(RINGTONE_PATH)/Polar.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Polar.ogg \
+    $(RINGTONE_PATH)/Redressing.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Redressing.ogg \
+    $(RINGTONE_PATH)/VOTBW.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/VOTBW.ogg
