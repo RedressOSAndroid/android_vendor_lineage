@@ -15,7 +15,9 @@ PRODUCT_COPY_FILES += \
     $(ALARM_PATH)/Ocean.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Ocean.ogg \
     $(ALARM_PATH)/Rise.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Rise.ogg \
     $(ALARM_PATH)/Sight.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Sight.ogg \
-    $(ALARM_PATH)/WUTTL.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/WUTTL.ogg
+    $(ALARM_PATH)/Soother.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Soother.ogg \
+    $(ALARM_PATH)/WUTTL.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/WUTTL.ogg \
+    $(ALARM_PATH)/Xylo.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Xylo.ogg
 
 # Notifications
 PRODUCT_COPY_FILES += \
