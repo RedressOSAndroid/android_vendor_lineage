@@ -1,5 +1,5 @@
 #
-# Lineage Audio Files
+# Redress Audio Files
 #
 
 ALARM_PATH := vendor/lineage/prebuilt/common/media/audio/alarms
@@ -9,6 +9,8 @@ RINGTONE_PATH := vendor/lineage/prebuilt/common/media/audio/ringtones
 # Alarms
 PRODUCT_COPY_FILES += \
     $(ALARM_PATH)/Aurora.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Aurora.ogg \
+    $(ALARM_PATH)/Gentle_breeze_RedressEdit.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Gentle_breeze_RedressEdit.ogg \
+    $(ALARM_PATH)/Glob.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Glob.ogg \
     $(ALARM_PATH)/Guitar.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Guitar.ogg \
     $(ALARM_PATH)/Nature.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Nature.ogg \
     $(ALARM_PATH)/NiceMorning.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/NiceMorning.ogg \
@@ -31,7 +33,8 @@ PRODUCT_COPY_FILES += \
     $(NOTIFICATION_PATH)/Missed.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Missed.ogg \
     $(NOTIFICATION_PATH)/PassBy.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/PassBy.ogg \
     $(NOTIFICATION_PATH)/Sign.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Sign.ogg \
-    $(NOTIFICATION_PATH)/Somewhere.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Somewhere.ogg
+    $(NOTIFICATION_PATH)/Somewhere.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Somewhere.ogg \
+    $(NOTIFICATION_PATH)/Vibraphone.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Vibraphone.ogg
 
 # Ringtones
 PRODUCT_COPY_FILES += \
