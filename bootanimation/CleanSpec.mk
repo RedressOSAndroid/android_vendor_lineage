@@ -13,5 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+# 2025 The Redress Project
 
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/obj/BOOTANIMATION)
