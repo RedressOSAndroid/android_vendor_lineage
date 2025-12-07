@@ -2,6 +2,7 @@
 // SPDX-FileCopyrightText: The LineageOS Project
 // SPDX-License-Identifier: Apache-2.0
 //
+// RedressOS 15.1 Bootanimation
 
 genrule {
     name: "gen-bootanimation.zip",
